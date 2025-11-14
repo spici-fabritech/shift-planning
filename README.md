@@ -1,15 +1,15 @@
 
-[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/shift-planning&target_branch=18.0)
-[![Pre-commit Status](https://github.com/OCA/shift-planning/actions/workflows/pre-commit.yml/badge.svg?branch=18.0)](https://github.com/OCA/shift-planning/actions/workflows/pre-commit.yml?query=branch%3A18.0)
-[![Build Status](https://github.com/OCA/shift-planning/actions/workflows/test.yml/badge.svg?branch=18.0)](https://github.com/OCA/shift-planning/actions/workflows/test.yml?query=branch%3A18.0)
-[![codecov](https://codecov.io/gh/OCA/shift-planning/branch/18.0/graph/badge.svg)](https://codecov.io/gh/OCA/shift-planning)
-[![Translation Status](https://translation.odoo-community.org/widgets/shift-planning-18-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/shift-planning-18-0/?utm_source=widget)
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/shift-planning&target_branch=15.0)
+[![Pre-commit Status](https://github.com/OCA/shift-planning/actions/workflows/pre-commit.yml/badge.svg?branch=15.0)](https://github.com/OCA/shift-planning/actions/workflows/pre-commit.yml?query=branch%3A15.0)
+[![Build Status](https://github.com/OCA/shift-planning/actions/workflows/test.yml/badge.svg?branch=15.0)](https://github.com/OCA/shift-planning/actions/workflows/test.yml?query=branch%3A15.0)
+[![codecov](https://codecov.io/gh/OCA/shift-planning/branch/15.0/graph/badge.svg)](https://codecov.io/gh/OCA/shift-planning)
+[![Translation Status](https://translation.odoo-community.org/widgets/shift-planning-15-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/shift-planning-15-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
 
-# shift-planning
+# Shift Planning
 
-shift-planning
+Define shift planning and organise the work of your organization's members.
 
 <!-- /!\ do not modify below this line -->
 
@@ -17,7 +17,12 @@ shift-planning
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[hr_shift](hr_shift/) | 15.0.1.1.0 |  | Define shifts for employees
+[hr_shift_holidays_public](hr_shift_holidays_public/) | 15.0.1.0.0 |  | Avoid planning shifts on holidays
 
 [//]: # (end addons)
 
